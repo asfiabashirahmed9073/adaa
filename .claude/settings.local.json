@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(node \"$env:USERPROFILE\\\\.claude\\\\skills\\\\generate-image\\\\gen.cjs\" \"elegant modest fashion portrait, woman in flowing mauve purple hijab and black abaya, soft pink roses in foreground, blurred architectural background, warm beige and brown tones, professional photography, essence of modesty aesthetic, silk fabric texture, peaceful and elegant atmosphere, AW24 editorial style\" \"$PWD\\\\hero-image.jpg\" 1024 768 flux)",
+      "PowerShell(node \"$env:USERPROFILE\\\\.claude\\\\skills\\\\generate-image\\\\gen.cjs\" \"A cinematic fashion editorial photograph of a modest Muslim woman wearing a flowing mauve/dusty rose silk hijab and elegant black abaya, standing gracefully in a luxurious classical interior with ornate dark green curtains and architectural columns. Soft pink roses in the foreground create a romantic, dreamy bokeh effect. The lighting is soft and cinematic with a muted, sophisticated color palette. The text overlay reads 'SILK & SILENCE - ESSENCE OF MODESTY - AW24 Editorial' in elegant serif typography. Professional fashion photography style, high-end modest fashion campaign, ethereal and serene atmosphere, shot with shallow depth of field, luxury brand aesthetic.\" \"$PWD\\\\hero-image.jpg\" 1024 768 flux)",
+      "PowerShell(node \"$env:USERPROFILE\\\\.claude\\\\skills\\\\generate-image\\\\gen.cjs\" \"cinematic fashion editorial photograph, modest Muslim woman in flowing dusty rose silk hijab and elegant black abaya, luxurious classical interior, ornate dark green curtains, architectural columns, soft pink roses in foreground with dreamy bokeh, soft cinematic lighting, muted sophisticated color palette, professional high-end modest fashion photography, ethereal serene atmosphere, shallow depth of field, luxury brand aesthetic\" \"$PWD\\\\hero-image.jpg\" 1024 768 flux)",
+      "mcp__claude-vscode__getDiagnostics"
+    ]
+  }
+}

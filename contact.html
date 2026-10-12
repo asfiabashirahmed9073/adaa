@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Adaa Modest Clothing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <div class="logo">
+            <img src="./logo adaa.png" alt="Adaa Logo">
+            <div class="logo-text">
+                <span class="brand-name">ADAA</span>
+                <span class="brand-tag">MODEST CLOTHING</span>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-header">
+            <span class="badge">GET IN TOUCH</span>
+            <h1>Connect With <span class="highlight">Adaa</span></h1>
+            <div class="divider"></div>
+            <p>Have questions about our collection, custom sizing, or your bespoke order? Send us a message and our team will assist you.</p>
+        </div>
+
+        <div class="contact-form-card">
+            <form action="#" class="contact-us">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name <span class="req">*</span></label>
+                        <input type="text" id="name" name="name" placeholder="e.g. Fatima Ahmed" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-no">Contact Number</label>
+                        <input type="tel" id="contact-no" name="contact" placeholder="+92 300 1234567">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="req">*</span></label>
+                        <input type="email" name="email" id="email" placeholder="fatima@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reason">Inquiry Type <span class="req">*</span></label>
+                        <select name="reason" id="reason" required>
+                            <option value="" selected disabled>Choose inquiry topic</option>
+                            <option value="custom-sizing">Custom Sizing & Alterations</option>
+                            <option value="order-status">Order Status & Tracking</option>
+                            <option value="bridal-custom">Bridal & Formal Order</option>
+                            <option value="wholesale">Wholesale & Collaboration</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Interested Categories:</label>
+                    <div class="clothing-options">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="interest" value="abayas">
+                            <span>Abayas</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="interest" value="hijabs">
+                            <span>Hijabs & Scarves</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="interest" value="coords">
+                            <span>Modest Co-ords</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="interest" value="pret">
+                            <span>Luxury Abaya</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" rows="3" placeholder="Tell us about your requirements or preferences..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <span>Send Message</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-brand">
+            <div class="footer-logo">
+                <img src="./logo adaa.png" alt="Adaa Logo">
+                <div class="logo-text">
+                    <span class="brand-name">ADAA</span>
+                    <span class="brand-tag">MODEST CLOTHING</span>
+                </div>
+            </div>
+            <p class="footer-desc">Embracing grace and elegance in modest fashion. Crafted with premium fabrics, intricate details, and timeless silhouettes.</p>
+        </div>
+        <div class="footer-nav">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <p>© 2026 Adaa Modest Clothing. Handcrafted with elegance.</p>
+    </div>
+
+</body>
+</html>
